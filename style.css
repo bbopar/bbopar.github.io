@@ -154,3 +154,13 @@ table tr:last-child td {
 .contact-link:hover {
   color: white;
 }
+
+.download-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
