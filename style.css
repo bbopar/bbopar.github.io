@@ -10,45 +10,45 @@ header {
 }
 
 header h1 {
-font-size: 32px;
-margin: 0;
+  font-size: 32px;
+  margin: 0;
 }
 
 nav {
-display: inline-block;
-float: right;
+  display: inline-block;
+  float: right;
 }
 
 nav ul {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
-display: inline-block;
-margin-left: 20px;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 nav a {
-color: #fff;
-text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 main {
-max-width: 800px;
-margin: 0 auto;
-padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 section {
-margin-top: 30px;
+  margin-top: 30px;
 }
 
 section h2 {
-font-size: 24px;
-margin: 0;
-display: flex;
-align-items: center;
+  font-size: 24px;
+  margin: 0;
+  display: flex;
+  align-items: center;
 }
 
 section h2 i {
@@ -56,88 +56,88 @@ section h2 i {
 }
 
 section ul {
-margin: 10px 0;
+  margin: 10px 0;
 }
 
 section li {
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 section h3 {
-font-size: 18px;
-margin: 0;
+  font-size: 18px;
+  margin: 0;
 }
 
 section p {
-margin: 0;
+  margin: 0;
 }
 
 section img {
-display: block;
-float: right;
-margin-left: 20px;
-border-radius: 50%;
-width: 200px;
-height: 200px;
+  display: block;
+  float: right;
+  margin-left: 20px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
 
 form {
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 label {
-display: block;
-margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-width: 100%;
-padding: 10px;
-margin-bottom: 10px;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 input[type="submit"] {
-background-color: #333;
-color: #fff;
-border: none;
-padding: 10px 20px;
-border-radius: 4px;
-cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 input[type="submit"]:hover {
-background-color: #444;
+  background-color: #444;
 }
 
 .fa {
-display: inline-block;
-font-size: 20px;
-margin-right: 5px;
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 5px;
 }
 
 .fa-user:before {
-content: "\f007";
+  content: "\f007";
 }
 
 .fa-briefcase:before {
-content: "\f0b1";
+  content: "\f0b1";
 }
 
 .fa-graduation-cap:before {
-content: "\f19d";
+  content: "\f19d";
 }
 
 .fa-code:before {
-content: "\f121";
+  content: "\f121";
 }
 
 .fa-envelope:before {
-content: "\f0e0";
+  content: "\f0e0";
 }
 
 table {
@@ -169,4 +169,45 @@ table tr:last-child td {
   color: white;
   text-decoration: none;
   text-align: center;
+}
+
+body.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark header {
+  background-color: #222;
+}
+
+body.dark input[type="submit"] {
+  background-color: #222;
+}
+
+body.dark input[type="submit"]:hover {
+  background-color: #444;
+}
+
+body.dark .download-button {
+  background-color: #222;
+}
+
+#dark-mode-toggle {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 3px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: fixed;
+  top: 12px;
+  right: 20px;
+}
+
+#dark-mode-toggle:hover {
+  background-color: #555;
+}
+
+#dark-mode-toggle i {
+  font-size: 20px;
 }
